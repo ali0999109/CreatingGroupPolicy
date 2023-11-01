@@ -64,7 +64,7 @@
   ![image](https://github.com/ali0999109/CreatingGroupPolicy/assets/145396907/aba87c5a-865b-4cab-84f3-e70f3b0573fa)
 
 - Go to command prompt and type in gpupdate /force
-- restart your computer and you will the interactive message when you try to logon
+- restart your computer and you will see the interactive message when you try to logon
   ![image](https://github.com/ali0999109/CreatingGroupPolicy/assets/145396907/149fd976-d399-42ef-9adf-b8a1b1cb58fa)
 
   
