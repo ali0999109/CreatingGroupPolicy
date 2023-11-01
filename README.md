@@ -47,7 +47,7 @@
 
 
 
-# Setting up a logon banner
+# Setting up a interactive logon message
 
 - Go to group policy management
 - Right-click on your domain and create a GPO
