@@ -84,7 +84,38 @@
 
 
 # Deploying software with group policy
+- Right click on your software select cut
+- Go to your data drive and create a folder paste in your software file
+- Right click on the folder select properties > sharing > advanced sharing > check the box > permissions > remove everyone > add authenticated users > check name > select read > apply
+  
+  ![image](https://github.com/ali0999109/CreatingGroupPolicy/assets/145396907/0579312a-c5fc-4494-8223-a491cced82e9)
+ 
+- copy the network path
+- go to group policy management
+- Right-click on your domain and add GPO
+- Right click on your GPO and select edit > computer configurations/Policies/software settings/software installation
+  
+ ![image](https://github.com/ali0999109/CreatingGroupPolicy/assets/145396907/9781a932-b748-416a-a3b9-50c691d0a675)
 
+- Right click on software installation and select new package
+- Type in \\ and your servername \
+   ![image](https://github.com/ali0999109/CreatingGroupPolicy/assets/145396907/b5422f41-de4e-408d-a038-9ee6260a46cb)
+
+- Go to the folder with your software and open
+- select assigned
+- Go to command prompt type in > gpupdate /force
+- type in shutdown -r -t 0 to restart right away
+
+  ![image](https://github.com/ali0999109/CreatingGroupPolicy/assets/145396907/be363f94-a107-4e22-8c84-2a9146113e1a)
+
+
+- Your software should be installed on all the computers in your domain
+  
+  ![image](https://github.com/ali0999109/CreatingGroupPolicy/assets/145396907/fc16c559-9ad6-4286-b48b-591cef283255)
+
+
+
+  
 
 
 
