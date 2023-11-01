@@ -45,6 +45,101 @@
 - Log out and log back in and your wallpaper should be applied
 
 
+
+
+# Setting up a logon banner
+
+- Go to group policy management
+- Right-click on your domain and create a GPO
+- Right click on the GPO and select edit
+- Go to policies/windows settings/Security settings/Local policies/Security options
+  
+  ![image](https://github.com/ali0999109/CreatingGroupPolicy/assets/145396907/87992bb6-a10e-4400-aad4-b489d08fc905)
+ 
+- Select the interactive logon message title > check the box > type in your message
+  
+  ![image](https://github.com/ali0999109/CreatingGroupPolicy/assets/145396907/37c4f367-dee7-476c-8e69-0cd3883b5100)
+
+- Select the interactive logon message text > check the box > type in your messsage
+  ![image](https://github.com/ali0999109/CreatingGroupPolicy/assets/145396907/aba87c5a-865b-4cab-84f3-e70f3b0573fa)
+
+- Go to command prompt and type in gpupdate /force
+- restart your computer and you will the interactive message when you try to logon
+  ![image](https://github.com/ali0999109/CreatingGroupPolicy/assets/145396907/149fd976-d399-42ef-9adf-b8a1b1cb58fa)
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Deploying software with group policy
+
+
+
+
+
+
+
+# Configuring roaming profiles for user accounts
+
+
+
+
+
+
+
+# How to automatically map network share drives 
+
+
+
+
+
+
+# Configuring domain password and account lockout policies
+
+
+
+
+
+
+
+
+
+
+
+# Deploying fine-grained password policies
+
+
+
+
+
+# Configuring windows firewall 
+
+
+
+
+
+
+
+
+
+# Configuring windows registry
+
+
+
+
+
   
 
 
