@@ -128,23 +128,27 @@
 
 
 
-# Configuring roaming profiles for user accounts
-
-
-
-
-
-
-
-# How to automatically map network share drives 
-
-
-
-
-
-
 # Configuring domain password and account lockout policies
 
+- Go to group policy management
+- Right-click on default domain policy select edit. Click on policies/windows settings/security settings/account policies/password policy/
+  
+- Enforce password history 24 days passwords > Maximum password age 60 days > Minimum password age 0 days > Minimum password length 14 
+  characters > enabled > disabled
+  
+  ![image](https://github.com/ali0999109/CreatingGroupPolicy/assets/145396907/8a531410-e1a6-4d5f-9609-4a3a1404dcdf)
+
+- Now go to account lockout policy > account lockout duration 15 minutes > account lockout threshold 3 attempts > 15 minutes
+  
+  ![image](https://github.com/ali0999109/CreatingGroupPolicy/assets/145396907/78354a31-e02d-4dd1-a826-8cfcf5cbbc5e)
+
+- Open cmd and type in gpupdate /force and restart your computer and see if your policy is working
+  
+  ![image](https://github.com/ali0999109/CreatingGroupPolicy/assets/145396907/650b5894-4929-4950-8efa-c7c0a50e5168)
+
+
+  
+  
 
 
 
@@ -155,13 +159,6 @@
 
 
 
-# Deploying fine-grained password policies
-
-
-
-
-
-# Configuring windows firewall 
 
 
 
@@ -171,7 +168,8 @@
 
 
 
-# Configuring windows registry
+
+
 
 
 
